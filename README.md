@@ -12,6 +12,10 @@ set up latest version mackerel-agent for debian/ubuntu/centos quickly.
 
 https://hub.docker.com/u/sixeight/
 
+## KNOWN ISSUES
+
+* debian/ubuntu version cannot change host status when stop container
+
 ## LICENSE
 
 MIT
