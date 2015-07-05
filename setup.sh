@@ -17,5 +17,6 @@ fi
 sed -i.old -e "s/<YOUR_APIKEY>/$1/" docker-compose.yml
 rm docker-compose.yml.old
 
+$DOCKER_COMPOSE build --no-cache
 $DOCKER_COMPOSE up -d
 

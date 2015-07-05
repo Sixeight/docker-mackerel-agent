@@ -1,12 +1,12 @@
 debian:
-  image: sixeight/mackerel-agent-debian:latest
+  build: debian
   environment:
     - APIKEY=<YOUR_APIKEY>
 ubuntu:
-  image: sixeight/mackerel-agent-ubuntu:latest
+  build: ubuntu
   environment:
     - APIKEY=<YOUR_APIKEY>
 centos:
-  image: sixeight/mackerel-agent-centos:latest
+  build: centos
   environment:
     - APIKEY=<YOUR_APIKEY>
